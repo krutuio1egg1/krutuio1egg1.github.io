@@ -1,0 +1,28 @@
+.right{
+    width: 250px;
+    background-color: rgb(100, 100, 100);
+    border: 1px solid slategray;
+    padding: 25px;
+    float: right;
+}
+img {
+    width: 100%;
+}
+.zmist{
+    background-color: rgb(218, 222, 226);
+    border: 1px solid gray;
+    width: 250px;
+    padding: 15px;
+}
+.zmist a{
+    text-decoration: underline;
+}
+html, body{
+    scroll-behavior: smooth;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    border-bottom: 1px solid gray;
+}
