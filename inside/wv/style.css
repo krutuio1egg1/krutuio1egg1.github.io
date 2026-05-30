@@ -1,0 +1,17 @@
+img{
+    width: 100%;
+}
+.logo{
+    width: 75px;
+}
+.menu-img{
+    user-select: none;
+    width: 30px;
+}
+.nav-link{
+    color: #000;
+    font-size: 1.2em;
+}
+.menu{
+    user-select: none;
+}
