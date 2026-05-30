@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+    width: 100%;
+}
+.logo{
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.left, .right{
+width: 280px;
+flex-grow: 1;
+padding: 20px;
+box-sizing: border-box;
+}
+.father{
+    display: flex;
+    flex-wrap: wrap;   
+}
+.padd{
+padding-left: 100px;
+padding-top: 80px;
+}
+h2{
+    text-align: center;
+    si
+}
