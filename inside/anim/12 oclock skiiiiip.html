@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bykis-anim.exe</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+}
+
+div {
+    background-color: black;
+    display: inline-block;
+    margin: auto;
+}
+
+h2{
+    font-size: 7rem;
+    letter-spacing: 0;
+    color: rgba(12, 12, 12, 0.5);
+    background-image: url(lightning-2.png);
+    -webkit-background-clip: text;
+    animation:fon-move 5s infinite linear;
+}
+
+@keyframes fon-move {
+    0% {
+        background-position: left 0 top 80px;
+    }
+
+    35% {
+        background-position: left 800px top -60px;
+    }
+
+    75% {
+        background-position: left 1600px top -70px;
+    }
+
+    100% {
+        background-position: left 2200px top 80px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div>
+        <h2>тут був дятел</h2>
+    </div>
+</body>
+</html>
