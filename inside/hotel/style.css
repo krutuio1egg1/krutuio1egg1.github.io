@@ -1,0 +1,23 @@
+img{
+    width: 100%;
+}
+.big-img{
+    background-image: url(banner.jpg);
+    height: 500px;
+    background-size: cover;
+    color: #ffffff;
+    padding-top: 50px;
+    user-select: none;
+}
+.row{
+align-items: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.fon-2{
+background-image:linear-gradient(rgba(255, 255, 255, 0.424), rgba(255, 255, 255, 0.23)), url(the-hut-bg.png) ;
+background-size: cover;
+background-position: 50% 50%;
+height: 200px;
+color: aliceblue;
+}
