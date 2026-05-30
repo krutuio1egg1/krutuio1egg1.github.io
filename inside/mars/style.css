@@ -1,0 +1,63 @@
+img {
+    width: 100%;
+}
+
+.title-h1{
+    font-family: "Poiter One", sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 30px;
+    user-select: none;
+}
+
+.title-p{
+font-family: "Cormorant Garamond", serif;
+color: orangered;
+font-size: 1.5em;
+text-align: center;
+user-select: none;
+}
+
+h2{
+    font-family: "Cormorant Garamond", serif;
+}
+            
+p {
+    font-family: "Exo 2", sans-serif;
+}
+
+.header{
+    background-image: url(fon.png);
+}
+
+body{
+    color: orangered;
+    background-image: url(fon.png);
+    user-select: none;
+}
+.card{
+    box-shadow: 0px 0px 10px;
+    background-color: rgb(138, 65, 38);
+}
+.card-title{
+    color: orangered;
+}
+
+.card-header{
+    background-color: rgb(255, 154, 117);
+}
+ .footer{
+    background-color: orangered;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+ }
+.socio-link{
+    color: black;
+    font-size: 2em;
+    margin: 10px;
+}
+
